@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }    
+    </style>
+</head>
+<body>
+    <table style="width: 500px;"> 
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>       
+        <tbody>
+            <tr>
+                <td>Mouse</td>
+                <td>19.99$</td>
+            </tr>
+            <tr>
+                <td>Teclado</td>
+                <td>15.99$</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>35.98$</td>
+            </tr>
+    </table>
+   <!-- ul es lista no ordenada --> 
+    <ul>
+        <li>Prueba de ul</li>
+        <li>ul es una lista sin orden</li>
+        <li>Es automatica</li>
+        <li>ul significa lista no ordenada </li> 
+    </ul>
+   <!-- ol es lista ordenada --> 
+    <ol>
+        <li>Prueba de ol</li>
+        <li>ol es un una lista para enumerar </li>
+        <li>Automaticamente</li>
+        <li>ol significa lista ordenada</li>
+        <li value="6">ahora pruebo value es un elemento para cambiar el valor de ol</li>
+        <li>
+            <ol>
+               <li style="list-style-type:lower-roman">sub elemento 1</li> 
+               <li style="list-style-type:lower-roman">sub elemento 2</li>
+               <li style="list-style-type:lower-roman">sub elemento 3</li>
+            </ol>
+        </li>  
+    </ol>
+
+
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Pone tu nombre" />
+        <br> 
+        <label for="apellido">apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Pone tu apellido" />
+        <br> 
+        <label for="comentario">Comentario</label> 
+        <textarea cols="50" rows="1" id="comentario" placeholder="Ingrese comentario :D" name="comentario"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form> 
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi Quinto heading</h5>
+    <h6>Mi Sexto heading</h6>
+    <p>Una prueba del primer parrafo</p>
+    <p>segundo parrafo</p>
+    <hr>
+    <h2> segundo titulo </h2>
+    <p> 
+        un texto del <span style="color:blue;">segundo titulo</span>
+         un poco mas largo para probar <br><br>
+        algo juhjh
+    </p>
+    <!-- Un comentario que no aparece en el explorador
+    h-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <img src="img/titan_snapshot_4966500.bmp" height="400" />
+       
+</body>
+</html>
